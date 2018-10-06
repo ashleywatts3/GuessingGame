@@ -1,0 +1,50 @@
+body {
+    background-color: pink;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+
+}   
+
+.navbar-brand {
+    margin: 0 auto;
+    color: #212529;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 90px;
+}
+
+.container {
+    margin-top: 130px;
+    text-align: center;
+}
+
+#second {
+    margin-top: 50px;
+}
+
+h3 {
+    background-color: blueviolet;
+    border-radius: 20px;
+}
+
+#livesLeft{
+    font-size: 120px;
+    color:green;
+   
+}
+
+p {
+    color:black;
+    font-size: 30px;
+}
+
+h2 {
+    animation: blinker 1.5s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
